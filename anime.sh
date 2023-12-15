@@ -14,7 +14,7 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 # domain random
-CDN="https://raw.githubusercontent.com/Tikusmerdeka/anjing/main/ssh"
+CDN="https://raw.githubusercontent.com/Tikusmerdeka/v5/main/ssh"
 cd /root
 if [ "${EUID}" -ne 0 ]; then
 echo "You need to run this script as root"
@@ -197,14 +197,14 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Tikusmerdeka/anjing/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Tikusmerdeka/v5/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install BACKUP               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Tikusmerdeka/ku/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Tikusmerdeka/v5/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
 clear
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -212,15 +212,15 @@ echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Tikusmerdeka/ku/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/Tikusmerdeka/ku/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/Tikusmerdeka/v5/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Tikusmerdeka/v5/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install SLOWDNS              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -q -O slow.sh https://raw.githubusercontent.com/Tikusmerdeka/ku/main/slow.sh && chmod +x slow.sh && ./slow.sh
+wget -q -O slow.sh https://raw.githubusercontent.com/Tikusmerdeka/v5/main/slow.sh && chmod +x slow.sh && ./slow.sh
 clear
 cat> /root/.profile << END
 if [ "$BASH" ]; then
