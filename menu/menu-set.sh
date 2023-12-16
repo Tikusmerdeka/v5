@@ -44,8 +44,6 @@ echo -e "${BIPurple} ┌──────────────────�
 echo -e "${BIPurple} │  ${BIYellow}                    SETTING                            $NC" 
 echo -e "${BIPurple} └─────────────────────────────────────────────────────┘${NC}" 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "       ${BIWhite}${UWhite}SETTING ${NC}"
-echo -e ""
 echo -e "     ${BICyan}[${BIWhite}01${BICyan}] Panel Domain      "
 echo -e "     ${BICyan}[${BIWhite}02${BICyan}] Change Port All Account      "
 echo -e "     ${BICyan}[${BIWhite}03${BICyan}] Webmin Menu      "
@@ -58,7 +56,7 @@ echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Bandwith"
 echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Setting Auto Reboot"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
+echo -e "     ${BIYellow}Tekan enter untuk kembali ke-${BIWhite}Menu${NC}"
 echo ""
 read -p " Select menu : " opt
 echo -e ""
@@ -75,5 +73,5 @@ case $opt in
 10) clear ; jam ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
+*) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu ;;
 esac
