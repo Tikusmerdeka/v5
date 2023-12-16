@@ -106,9 +106,10 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
 clear
+echo -e "${BIPurple} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIPurple} │  ${BIYellow}                   MENU SSH                             $NC" 
+echo -e "${BIPurple} └─────────────────────────────────────────────────────┘${NC}" 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "       ${BIWhite}${UWhite}SSH ${NC}"
-echo -e ""
 echo -e "     ${BICyan}[${BIWhite}01${BICyan}] Create SSH & OpenVPN Account      "
 echo -e "     ${BICyan}[${BIWhite}02${BICyan}] Trial Account SSH & OpenVPN      "
 echo -e "     ${BICyan}[${BIWhite}03${BICyan}] Renew SSH & OpenVPN Account      "
@@ -120,7 +121,7 @@ echo -e "     ${BICyan}[${BIWhite}08${BICyan}] Set up Autokill SSH"
 echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Users Who Do Multi Login SSH"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
+echo -e "     ${BIYellow}Tekan enter untuk kembali ke-${BIWhite}Menu${NC}"
 echo ""
 read -p " >>>>    "  opt
 echo -e ""
@@ -136,5 +137,5 @@ case $opt in
 9) clear ; ceklim ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
+*) echo "OTW BRO " ; sleep 1 ; menu ;;
 esac

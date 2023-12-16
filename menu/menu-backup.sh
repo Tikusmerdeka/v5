@@ -21,13 +21,8 @@ echo -e "$green██║╚██╔╝██║██╔══╝  ██║╚
 echo -e "$green██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝    ██████╔╝██║  ██║╚██████╗██║  ██╗╚██████╔╝██║     $NC"
 echo -e "$green╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     $NC"
 echo -e "${ungu}++++++++++++++++++++++++++++++++++++++++++++"
-echo -e
 echo -e "${BlueCyan}              Menu Backup                   "
-echo -e
-echo -e "            t.me/LORDFREEDOM"
 echo -e "${ungu}++++++++++++++++++++++++++++++++++++++++++++"
-echo
-echo
 echo -e "${BlueCyan}Pilih Nomor: "
 echo
 echo "1).Backup"
@@ -36,6 +31,8 @@ echo "3).strt"
 echo "4).limit speed"
 echo "5).autobackup"
 echo
+echo -e "${ungu}++++++++++++++++++++++++++++++++++++++++++++"
+echo -e "            t.me/Jago_an_vpn"
 echo -e "${ungu}++++++++++++++++++++++++++++++++++++++++++++"
 echo
 echo -e "${BlueCyan}"
@@ -47,7 +44,7 @@ figlet "backup" | lolcat
 backup
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan script LORDFREEDOM"
+echo "Terimakasih sudah menggunakan layanan script MAZFARUK"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -58,7 +55,7 @@ figlet "Restore" | lolcat
 restore
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan script LORDFREEDOM"
+echo "Terimakasih sudah menggunakan layanan script MAZFARUK"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -68,7 +65,7 @@ figlet "strt"
 strt
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan script LORDFREEDOM"
+echo "Terimakasih sudah menggunakan layanan script MAZFARUK"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -77,7 +74,7 @@ then
 limitspeed
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan script LORDFREEDOM"
+echo "Terimakasih sudah menggunakan layanan script MAZFARUK"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -87,7 +84,7 @@ then
 autobackup
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan script LORDFREEDOM"
+echo "Terimakasih sudah menggunakan layanan script MAZFARUK"
 echo
 echo "--------------------------------------------------------"
 fi

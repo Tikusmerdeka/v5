@@ -249,12 +249,15 @@ echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 }
-export sem=$( curl -s https://raw.githubusercontent.com/Tikusmerdeka/permission/main/versions)
+export sem=$( curl -s https://raw.githubusercontent.com/Tikusmerdeka/v5/main/versions)
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${BIPurple} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BIPurple} │                  ${BIWhite}${UWhite}MAZFARUKSTORE${NC}"
+echo -e "${BIPurple} │  ${BIYellow}             SCRIPT  MAZFARUK STORE                       $NC" 
+echo -e "${BIPurple} └─────────────────────────────────────────────────────┘${NC}" 
+echo -e "${BIPurple} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIPurple} │                 ${BIWhite}${UWhite}JANGAN LUPA KERJA YA${NC}"
 echo -e "${BIPurple} │"
 echo -e "${BIPurple} │  ${BIPurple}OS        :  ${BIYellow}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
 echo -e "${BIPurple} │  ${BIPurple}CPU       :  ${BIYellow}$cpu_usage${NC}"

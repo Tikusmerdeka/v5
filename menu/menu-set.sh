@@ -40,6 +40,9 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
 clear
+echo -e "${BIPurple} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIPurple} │  ${BIYellow}                    SETTING                            $NC" 
+echo -e "${BIPurple} └─────────────────────────────────────────────────────┘${NC}" 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "       ${BIWhite}${UWhite}SETTING ${NC}"
 echo -e ""

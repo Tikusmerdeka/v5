@@ -107,8 +107,10 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
 clear
+echo -e "${BIPurple} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIPurple} │  ${BIYellow}                   MENU VLESS                             $NC" 
+echo -e "${BIPurple} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "       ${BIWhite}${UWhite}VLESS ${NC}"
 echo -e ""
 echo -e "     ${BICyan}[${BIWhite}01${BICyan}] Create Account XRAY Vless Websocket  "
 echo -e "     ${BICyan}[${BIWhite}02${BICyan}] Trial Account XRAY Vless   "
@@ -117,7 +119,7 @@ echo -e "     ${BICyan}[${BIWhite}04${BICyan}] Delete Account XRAY Vless Websock
 echo -e "     ${BICyan}[${BIWhite}05${BICyan}] Check User Login XRAY Vless     "
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
+echo -e "     ${BIYellow}Tekan enter untuk kembali ke-${BIWhite}Menu${NC}"
 echo ""
 read -p " Select menu :  "  opt
 echo -e ""
@@ -129,5 +131,5 @@ case $opt in
 5) clear ; cek-vless ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
+*) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
