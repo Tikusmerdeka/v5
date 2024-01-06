@@ -2,9 +2,9 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=M+A+Z+F+A+R+U++K" />
 </p>
 
+## TAMPILAN SCRIPT
+![alt text](https://github.com/Tikusmerdeka/v5/blob/main/IMG_20240106_150140.jpg?raw=true)
 
-
-https://github.com/Tikusmerdeka/v5/blob/main/IMG_20240106_150140.jpg
 
 
 
